@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Mountains+of+Christmas:wght@400;700&display=swap");
+
+@theme {
+  --font-serif: "Mountains of Christmas", serif;
+  --font-sans: "Inter", sans-serif;
+  --animate-spin-slow: spin 8s linear infinite;
+
+  @keyframes fly {
+    0% {
+      transform: translateX(100vw) translateY(0);
+    }
+    25% {
+      transform: translateX(50vw) translateY(20px);
+    }
+    50% {
+      transform: translateX(0vw) translateY(-10px);
+    }
+    75% {
+      transform: translateX(-50vw) translateY(10px);
+    }
+    100% {
+      transform: translateX(-100vw) translateY(0);
+    }
+  }
+}
+
+/* Custom utility for the animation if needed, or rely on arbitrary values in v4 */
+/* In v4 we can often use animate-[name] directly if keyframes are defined */
