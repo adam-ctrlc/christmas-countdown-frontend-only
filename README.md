@@ -1,5 +1,7 @@
 # Christmas Countdown
 
+![Christmas Countdown](/public/screenshot.png)
+
 ## Features
 
 - **Live Countdown Timer** - Real-time countdown to Christmas Day (Dec 25, 00:00) based on your timezone
