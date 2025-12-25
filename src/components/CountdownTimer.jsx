@@ -25,7 +25,7 @@ const CountdownTimer = () => {
 
     // If Christmas has passed, target next year
     if (nowUTC >= christmasUTC) {
-      targetYear = year + 1;
+      targetYear = targetYear + 1;
       christmasUTC =
         Date.UTC(targetYear, 11, 25, 0, 0, 0) - timezoneOffset * 60 * 60 * 1000;
     }

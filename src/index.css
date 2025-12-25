@@ -1,5 +1,5 @@
-@import "tailwindcss";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Mountains+of+Christmas:wght@400;700&display=swap");
+@import "tailwindcss";
 
 @theme {
   --font-serif: "Mountains of Christmas", serif;
